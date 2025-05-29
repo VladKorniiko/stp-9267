@@ -25,10 +25,22 @@ a {
 
 button {
   cursor: pointer;
+  font-family: inherit;
+  font-size: inherit;
 }
 
 img {
   display: block;
   max-width: 100%;
   height: auto;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
 }
