@@ -11,6 +11,7 @@
 
 /* Sections style */
 @import url('./header.css');
+@import url('./cookies.css');
 @import url('./hero.css');
 @import url('./puzzle.css');
 @import url('./challenges.css');
@@ -23,3 +24,4 @@
 @import url('./faq.css');
 @import url('./matching.css');
 @import url('./footer.css');
+@import url('./info-style.css');

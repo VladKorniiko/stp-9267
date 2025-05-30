@@ -25,5 +25,8 @@
 <symbol id="icon-menu-burger" viewBox="0 0 32 32">
 <path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.0645" d="M4.387 8.258h23.226M4.387 16h23.226M4.387 23.742h23.226"></path>
 </symbol>
+<symbol id="icon-weui_arrow-outlined" viewBox="0 0 23 32">
+<path d="M18.111 23.227l-1.951 1.413-10.628-7.703c-0.171-0.123-0.307-0.27-0.4-0.432s-0.141-0.335-0.141-0.51c0-0.175 0.048-0.348 0.141-0.51s0.229-0.309 0.4-0.432l10.628-7.707 1.949 1.413-9.975 7.233 9.977 7.233z"></path>
+</symbol>
 </defs>
 </svg>
