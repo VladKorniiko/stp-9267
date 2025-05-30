@@ -11,7 +11,13 @@
 
 html,
 body {
-  height: 100%;
+  height: auto;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+main {
+  padding-top: 77px;
 }
 
 body {
@@ -19,9 +25,10 @@ body {
   font-weight: 400;
   font-size: 16px;
   color: var(--text);
-  margin: 0;
   overflow-x: hidden;
   background: linear-gradient(to bottom, #b2e6ff, #d4c7ff);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
 }
 
 h1 {
