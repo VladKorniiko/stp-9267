@@ -3,6 +3,11 @@
   padding-top: 24px;
   padding-bottom: 19px;
   font-family: var(--font-family);
+  width: 100%;
+}
+
+.container.footer-box{
+  padding: 24px, 16px;
 }
 
 .terms {
