@@ -1,0 +1,20 @@
+.matching-title{
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.matching-logo{
+  margin-bottom: 24px;
+}
+
+.matching-text{
+  margin-bottom: 24px;
+}
+
+.matching-btn{
+  width: 272px;
+  height: 48px;
+  border-radius: 4px;
+  
+  margin-bottom: 32px;
+}
