@@ -37,6 +37,10 @@
     margin: 0 auto;
     padding: 20px 0;
   }
+  
+  .footer-cookie{
+    display: flex;
+  }
 
   .terms {
     flex-direction: row;
