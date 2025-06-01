@@ -83,8 +83,8 @@
     gap: 24px;
   }
   .hero-google-link {
-    width: 256px;
-    height: 68px;
+    min-width: 256px;
+    min-height: 68px;
     font-size: 24px;
   }
   .hero-google-link:hover {
