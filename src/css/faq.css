@@ -1,3 +1,6 @@
+.faq{
+  margin-bottom: 32px;
+}
 .faq-title {
   text-align: center;
   font-family: var(--font-family);
