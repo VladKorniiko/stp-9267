@@ -1,6 +1,5 @@
 .information-main-pading {
   padding-top: 16px;
-  padding-bottom: 24px;
 }
 
 .fat {
@@ -28,10 +27,6 @@
   font-weight: 500;
   margin-bottom: 32px;
   text-align: left;
-}
-
-.privacy-policy p {
-  margin-bottom: 8px;
 }
 
 .privacy-policy-list p {
@@ -102,6 +97,5 @@
   }
   .information-main-pading {
     padding-top: 36px;
-    padding-bottom: 32px;
   }
 }

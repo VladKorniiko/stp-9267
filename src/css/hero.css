@@ -1,0 +1,101 @@
+.hero-wrapper {
+  background-image: url('../img/iphone1x.png');
+  background-size: 320px 290px;
+  background-position: top center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  .hero-wraper {
+    background-image: url('../img/iphone2x.png');
+  }
+}
+.hero-title-wrapper {
+  margin-top: 350px;
+}
+.hero-title {
+  margin-top: 32px;
+  margin-bottom: 24px;
+}
+.hero-google-link {
+  font-family: 'Inter', sans-serif;
+  border-radius: 4px;
+  padding: 20px 40px;
+  width: 272px;
+  height: 48px;
+  background: #f9f9f9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 400;
+  font-size: 20px;
+  color: var(--text);
+  margin-bottom: 24px;
+  transition: background-color 0.5s ease, color 0.5s ease;
+}
+.hero-content-img {
+  display: none;
+}
+.gp-logo {
+  margin-right: 12px;
+}
+@media only screen and (min-width: 1200px) {
+  .hero-wrapper {
+    background-image: url('../img/fon-image.jpg');
+    background-size: 1200px 600px;
+    background-position: top center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+  }
+  .hero-title {
+    width: 710px;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 1.6;
+  }
+  .hero-title-wrapper {
+    position: relative;
+    left: -28px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 20px 0 #202325;
+    background: rgba(212, 199, 255, 0.57);
+    width: 1205px;
+    margin: 465px auto 70px;
+    padding: 10px 245px 0;
+  }
+
+  .hero-wraper-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 110px;
+  }
+  .hero-content-img {
+    display: block;
+    flex-shrink: 1;
+  }
+  .hero-googlelink-wrapper {
+    width: 531px;
+    height: 295px;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: flex-end;
+    gap: 24px;
+  }
+  .hero-google-link {
+    width: 256px;
+    height: 68px;
+    font-size: 24px;
+  }
+  .hero-google-link:hover {
+    border: 2px solid #4b0082;
+    background: #a66dd4;
+    color: #f9f9f9;
+  }
+
+  @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+    .hero-wraper {
+      background-image: url('../img/fon-image2x.jpg');
+    }
+  }
+}
