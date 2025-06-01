@@ -1,7 +1,9 @@
 .information-main-pading {
-  padding-top: 16px;
+  padding-top: 0;
 }
-
+.privacy-policy {
+  margin-bottom: 24px;
+}
 .fat {
   font-weight: 500;
   font-size: 20px;
@@ -90,12 +92,9 @@
     display: none;
   }
   .information-main-pading {
-    padding-top: 36px;
+    padding-top: 0;
   }
   .fat-two {
     font-size: 24px;
-  }
-  .information-main-pading {
-    padding-top: 36px;
   }
 }

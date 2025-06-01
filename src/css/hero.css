@@ -55,7 +55,7 @@
   }
   .hero-title-wrapper {
     position: relative;
-    left: -28px;
+    left: -30px;
     backdrop-filter: blur(10px);
     box-shadow: 0 0 20px 0 #202325;
     background: rgba(212, 199, 255, 0.57);
