@@ -1,13 +1,8 @@
 .footer {
   background-color: var(--footer);
-  padding-top: 24px;
-  padding-bottom: 19px;
   font-family: var(--font-family);
   width: 100%;
-}
-
-.container.footer-box{
-  padding: 24px, 16px;
+  padding: 25px 0;
 }
 
 .terms {
@@ -31,24 +26,21 @@
 .copyright-item {
   display: flex;
   flex-direction: column;
-  /* align-items: center; */
-  /* text-align: center; */
 }
 
 @media only screen and (min-width: 1200px) {
   .footer {
-    padding: 20px 66px 34px 61px;
     width: 100%;
     font-weight: 400;
     font-size: 16px;
     line-height: 100%;
     margin: 0 auto;
+    padding: 20px 0;
   }
 
   .terms {
     flex-direction: row;
     justify-content: space-between;
-    width: 100%;
   }
 
   .footer-social-media {
