@@ -51,8 +51,10 @@
   .matching-wrapper {
     display: flex;
     /* justify-content: center; */
-    align-items: stretch; 
-    gap: 40px;
+    /* align-items: stretch;  */
+    width: 1076px;
+height: 286px;
+    /* gap: 40px; */
     margin-top: 72px;
     margin-bottom: 72px;
   }
@@ -60,7 +62,7 @@
   .matching-image-box {
     position: relative;
     display: flex;
-    /* justify-content: center; */
+    justify-content: flex-start;
     flex-shrink: 0;
     right: 150px;
   }
@@ -78,16 +80,18 @@
     flex-direction: column;
     justify-content: space-between; 
     height: 286px; 
+    margin-right: 100px;
   }
 
   .matching-title {
+    display: flex;
     position: relative;
     white-space: nowrap; 
      width: 437px; 
      font-size: 24px; 
      text-align: left; 
      margin-bottom: 22px;
-     left: 784px;
+     left: 720px;
   }
 
   .matching-text {
