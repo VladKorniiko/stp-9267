@@ -7,6 +7,7 @@
 
 section {
   scroll-margin-top: 50px;
+  margin-bottom: 32px;
 }
 
 /* Styles for Desktop devices */
@@ -16,5 +17,6 @@ section {
   }
   section {
     scroll-margin-top: 80px;
+    margin-bottom: 72px;
   }
 }

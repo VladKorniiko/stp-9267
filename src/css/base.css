@@ -17,7 +17,7 @@ body {
   padding: 0;
 }
 main {
-  padding-top: 77px;
+  padding-top: 52px;
 }
 
 body {
@@ -62,5 +62,8 @@ h3 {
   }
   h3 {
     font-size: 24px;
+  }
+  main {
+    padding-top: 77px;
   }
 }
