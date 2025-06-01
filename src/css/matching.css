@@ -1,8 +1,6 @@
 .matching-title {
   text-align: center;
   margin-bottom: 24px;
-  font-size: 20px;
-  font-weight: 500;
 }
 
 .matching-logo {
@@ -52,7 +50,7 @@
 @media only screen and (min-width: 1200px) {
   .matching-wrapper {
     display: flex;
-    justify-content: space-between;
+    /* justify-content: center; */
     align-items: stretch; 
     gap: 40px;
     margin-top: 72px;
@@ -60,16 +58,18 @@
   }
 
   .matching-image-box {
+    position: relative;
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
     flex-shrink: 0;
+    right: 150px;
   }
 
   .matching-logo {
     width: auto;
     height: 286px;
     object-fit: contain;
-    padding-left: 183px;
+    /* padding-left: 183px; */
     margin-bottom: 0;
   }
 
@@ -81,12 +81,17 @@
   }
 
   .matching-title {
-    font-size: 24px;
-    text-align: left;
-    margin-bottom: 22px;
+    position: relative;
+    white-space: nowrap; 
+     width: 437px; 
+     font-size: 24px; 
+     text-align: left; 
+     margin-bottom: 22px;
+     left: 784px;
   }
 
   .matching-text {
+    position: relative;
     width: 437px;
     height: auto;
     font-size: 24px;
@@ -94,6 +99,7 @@
     text-align: left;
     margin-bottom: 22px;
     flex-grow: 1;
+    top: 60px;
   }
 
   .matching-btn {
