@@ -37,19 +37,21 @@
 
 @media only screen and (min-width: 1200px) {
   .footer {
-    padding: 20px 66px 34px 61px;
     width: 100%;
     font-weight: 400;
     font-size: 16px;
     line-height: 100%;
     margin: 0 auto;
   }
+  
+  .footer-cookie{
+    display: flex;
+  }
 
   .terms {
     flex-direction: row;
-    justify-content: space-evenly;
-    gap: 24px;
-    width: 100%;
+    justify-content: space-between;
+    width: 100%
   }
 
   .footer-social-media {
