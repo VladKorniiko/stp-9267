@@ -38,10 +38,6 @@
 }
 
 @media only screen and (min-width: 1200px) {
-  .about {
-    /* margin-bottom: 72px; */
-    /* margin-left: 259px; */
-  }
 
   .about-img-wrapper {
     display: flex;
