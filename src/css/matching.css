@@ -5,18 +5,12 @@
 
 .matching-logo {
   margin-bottom: 24px;
-  max-width: 100%;
-  height: auto;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .matching-text {
   font-family: var(--font-family);
   font-weight: 400;
   font-size: 16px;
-  line-height: 100%;
   margin-bottom: 24px;
 }
 
@@ -27,11 +21,11 @@
   background-color: #f9f9f9;
   color: var(--text);
   text-decoration: none;
-  font-family: "Inter";
+  font-family: 'Inter';
   font-weight: 400;
   font-size: 20px;
   border-radius: 4px;
-  gap: 16px;
+  gap: 12px;
   width: 272px;
   height: 48px;
   margin-bottom: 32px;
@@ -39,81 +33,61 @@
 
 .matching-btn:hover {
   color: #f9f9f9;
-  background-color: #A66dd4;
+  background-color: #a66dd4;
 }
 
 .btn-icon {
   width: 24px;
   height: 24px;
 }
-
+.matching-second-title {
+  display: none;
+}
 @media only screen and (min-width: 1200px) {
+  .matching-title {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+  }
   .matching-wrapper {
     display: flex;
-    /* justify-content: center; */
-    align-items: stretch; 
-    gap: 40px;
-    margin-top: 72px;
-    margin-bottom: 72px;
+     align-items: center; 
+     
+    width: 1076px; 
+    margin: 72px auto; 
+    flex-wrap: nowrap;   
+    box-sizing: border-box; 
   }
-
-  .matching-image-box {
-    position: relative;
-    display: flex;
-    /* justify-content: center; */
-    flex-shrink: 0;
-    right: 150px;
+  .matching-second-title {
+    display: block;
   }
-
   .matching-logo {
-    width: auto;
-    height: 286px;
-    object-fit: contain;
-    /* padding-left: 183px; */
-    margin-bottom: 0;
+   width: 283px;
+    height: auto; 
+    margin-bottom: 0; 
+    margin-right: 180px; 
+    flex-shrink: 0;
+    margin-left: auto;
   }
-
-  .matching-content {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between; 
-    height: 286px; 
-  }
-
-  .matching-title {
-    position: relative;
-    white-space: nowrap; 
-     width: 437px; 
-     font-size: 24px; 
-     text-align: left; 
-     margin-bottom: 22px;
-     left: 784px;
-  }
-
   .matching-text {
-    position: relative;
-    width: 437px;
-    height: auto;
-    font-size: 24px;
-    line-height: 100%;
-    text-align: left;
+     font-size: 24px;
+    margin-top: 22px;
     margin-bottom: 22px;
-    flex-grow: 1;
-    top: 60px;
+    width: 390px;
+    text-align: left; 
   }
 
   .matching-btn {
-    align-self: flex-start;
-    font-size: 24px;
-    width: 256px;
-    height: 68px;
-    padding: 20px 40px;
-    margin-bottom: 0; 
-  }
-
-  .btn-icon {
-  width: 24px;
-  height: 27px;
+  padding: 12px 41px;
+  font-size: 24px;
+  width: 256px;
+  height: 68px;
+  margin-bottom: 0px;
 }
 }
-
