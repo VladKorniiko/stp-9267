@@ -47,8 +47,7 @@
 
   .terms {
     flex-direction: row;
-    justify-content: space-evenly;
-    gap: 24px;
+    justify-content: space-between;
     width: 100%;
   }
 
