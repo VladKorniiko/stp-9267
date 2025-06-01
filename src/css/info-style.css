@@ -1,5 +1,6 @@
 .information-main-pading {
   padding-top: 16px;
+  padding-bottom: 24px;
 }
 
 .fat {
@@ -95,5 +96,12 @@
   }
   .information-main-pading {
     padding-top: 36px;
+  }
+  .fat-two {
+    font-size: 24px;
+  }
+  .information-main-pading {
+    padding-top: 36px;
+    padding-bottom: 32px;
   }
 }
