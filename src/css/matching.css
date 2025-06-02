@@ -69,6 +69,7 @@
   .matching-wrapper {
     display: flex;
     justify-content: center;
+    transform: translateX(70px);
   }
   .matching-second-title {
     display: block;
