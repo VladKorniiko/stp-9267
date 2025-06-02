@@ -1,0 +1,167 @@
+.boosters-title {
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.boosters-subtitle {
+  text-align: center;
+}
+
+.boosters-items {
+  display: flex;
+  width: 273px;
+  margin-top: 24px;
+  margin-bottom: 16px;
+}
+
+.boosters-picture{
+  width: 120px;
+}
+
+.boosters-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 97px;
+  margin-left: 24px;
+}
+
+.boosters-main-text {
+  text-align: center;
+  width: 273px;
+  margin: 0 auto;
+}
+
+.boosters-main-text p {
+  font-family: 'Poppins';
+  font-weight: 250;
+  font-size: 16px;
+  font-style: italic;
+  line-height: 100%;
+}
+
+@media only screen and (min-width: 1200px) {
+
+.boosters-subtitle{
+  margin-bottom: 40px;
+}
+
+.boosters-subtitle {
+   margin-bottom: 40px;
+}
+
+.boosters-desktop ul {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  column-gap: 208px;
+  row-gap: 20px;
+  justify-items: center;
+  padding: 0;
+  list-style: none
+}
+
+.boosters-items {
+  display: flex;
+  align-items: center;
+  width: 435px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.boosters-picture{
+  width: 160px;
+  height: 144px;
+}
+
+}
+  /* .boosters-row {
+    flex-direction: column;
+    gap: 24px;
+    align-items: center;
+  }
+
+  .boosters-item,
+  .boosters-item.reverse {
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    max-width: 320px;
+    gap: 16px;
+  }
+
+  .boosters-item img {
+    width: 60px;
+    height: auto;
+    flex-shrink: 0;
+    margin-left: 8px;
+  }
+
+  .boosters-text {
+    margin: 0;
+    text-align: left;
+    font-size: 14px;
+    line-height: 1.3;
+    font-style: italic;
+  }
+
+  .boosters-main-text {
+    margin-top: 24px;
+    text-align: center;
+    padding: 0 16px;
+  }
+
+  .boosters-main-text p {
+    font-size: 14px;
+    line-height: 1.4;
+    font-style: italic;
+  }
+
+@media only screen and (min-width: 1200px){
+  .boosters-row {
+  display: flex;
+  justify-content: center;
+  gap: 208px;
+  margin-bottom: 32px;
+}
+
+.boosters-row.center {
+  justify-content: center;
+}
+
+.boosters-item {
+  display: flex;
+  align-items: center;
+  max-width: 400px;
+}
+
+.boosters-item.reverse {
+  flex-direction: row-reverse;
+}
+
+.boosters-item img {
+  width: 124px;
+  height: auto;
+}
+
+.boosters-text {
+  margin-left: 22px;
+  margin-right: 22px;
+  max-width: 200px;
+}
+
+.boosters-item.reverse .boosters-text {
+  margin-left: 22px;
+  margin-right: 0;
+}
+
+.boosters-text p {
+  font-family: 'Poppins';
+  font-weight: 250;
+  font-size: 16px;
+  font-style: italic;
+  line-height: 1.2;
+  margin: 0;
+}
+} */
+
