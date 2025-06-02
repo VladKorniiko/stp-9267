@@ -1,0 +1,34 @@
+<section id="reviews">
+  <div class="container">
+    <h2 class="reviews-title">Reviews</h2>
+    <h3 class="reviews-second-title">
+      What Our Players Are Saying About Lollipop World
+    </h3>
+
+    <!-- Мобильная версия -->
+    <ul id="reviews-mobile" class="reviews-list" data-type="mobile"></ul>
+    <button class="load-more-btn" id="loadMoreBtn" data-action="load-more">
+      <svg class="load-more-svg" width="20" height="20">
+        <use href="./img/sprite.svg#icon-weui_arrow-outlined"></use>
+      </svg>
+      Load more
+    </button>
+
+    <!-- Десктопная версия: Swiper -->
+    <div class="reviews-wrapper-swiper">
+      <div class="swiper-container" id="swiper-wrapper-container">
+        <ul class="swiper-wrapper reviews-list" id="swiper-wrapper"></ul>
+      </div>
+      <button class="reviews-btn-prev" type="button" id="swiper-prev">
+        <svg class="reviews-btn-svg" width="47" height="47">
+          <use href="./img/sprite.svg#icon-arrow-left"></use>
+        </svg>
+      </button>
+      <button class="reviews-btn-next" type="button" id="swiper-next">
+        <svg class="reviews-btn-svg" width="47" height="47">
+          <use href="./img/sprite.svg#icon-arrow-write"></use>
+        </svg>
+      </button>
+    </div>
+  </div>
+</section>
