@@ -38,15 +38,9 @@
   gap: 12px;
   width: 270px;
   height: 48px;
+  margin-top: 24px;
   margin-bottom: 32px;
 }
-
-.matching-btn:hover {
-  color: #f9f9f9;
-  background-color: #a66dd4;
-  transition: background-color 0.5s ease, color 0.5s ease;
-}
-
 .btn-icon {
   width: 24px;
   height: 24px;
@@ -95,6 +89,7 @@
     font-size: 24px;
     min-width: 256px;
     min-height: 68px;
+    margin-top: 0;
     margin-bottom: 0px;
   }
 
