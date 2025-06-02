@@ -26,14 +26,10 @@
   font-size: 20px;
   border-radius: 4px;
   gap: 12px;
-  width: 272px;
+  width: 270px;
   height: 48px;
   margin-bottom: 32px;
-}
-
-.matching-btn:hover {
-  color: #f9f9f9;
-  background-color: #a66dd4;
+  transition: background-color 0.5s ease, color 0.5s ease;
 }
 
 .btn-icon {
@@ -57,37 +53,38 @@
   }
   .matching-wrapper {
     display: flex;
-     align-items: center; 
-     
-    width: 1076px; 
-    margin: 72px auto; 
-    flex-wrap: nowrap;   
-    box-sizing: border-box; 
+    justify-content: center;
   }
   .matching-second-title {
     display: block;
   }
   .matching-logo {
-   width: 283px;
-    height: auto; 
-    margin-bottom: 0; 
-    margin-right: 180px; 
+    width: 283px;
+    height: auto;
+    margin-bottom: 0;
+    margin-right: 180px;
     flex-shrink: 0;
     margin-left: auto;
   }
   .matching-text {
-     font-size: 24px;
+    font-size: 24px;
     margin-top: 22px;
     margin-bottom: 22px;
     width: 390px;
-    text-align: left; 
+    text-align: left;
   }
 
   .matching-btn {
-  padding: 12px 41px;
-  font-size: 24px;
-  width: 256px;
-  height: 68px;
-  margin-bottom: 0px;
-}
+    padding: 12px 41px;
+    font-size: 24px;
+    min-width: 256px;
+    min-height: 68px;
+    margin-bottom: 0px;
+  }
+
+  .matching-btn:hover {
+    border: 2px solid #4b0082;
+    background: #a66dd4;
+    color: #f9f9f9;
+  }
 }
