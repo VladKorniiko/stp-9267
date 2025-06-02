@@ -1,8 +1,28 @@
 <section class="matching">
   <div class="container matching-wrapper">
     <h2 class="matching-title">Let's get matching</h2>
-
-    <img class="matching-logo" src="../img/pct -logo.png" alt="logo" />
+    <picture>
+      <source
+        media="(min-width: 1200px)"
+        srcset="
+          ./img/matching-img-des1x.jpg 1x,
+          ./img/matching-img-des2x.jpg 2x
+        "
+      />
+      <source
+        media="(min-width: 320px)"
+        srcset="
+          ./img/matching-img-mob1x.jpg 1x,
+          ./img/matching-img-mob2x.jpg 2x
+        "
+      />
+      <img
+        class="matching-logo"
+        src="./img/matching-img-mob1x.jpg"
+        alt="logo"
+        loading="lazy"
+      />
+    </picture>
     <div class="wrapper">
       <h3 class="matching-second-title">Let’s Get Matching!</h3>
       <p class="matching-text">
@@ -11,13 +31,13 @@
         Tap, swipe, and crush your way to the Candy Crown.
       </p>
       <a
-        href="https://play.google.com/store"
+        href="https://play.google.com/store/apps/details?id=net.playtouch.candyworldmm&hl=en&gl=us"
         class="matching-btn"
         target="_blank"
         rel="noopener noreferrer"
       >
         <img
-          src="../img/logos_google-play-icon.png"
+          src="./img/logos_google-play-icon.png"
           alt="Google Play Icon"
           class="btn-icon"
         />
@@ -26,5 +46,4 @@
     </div>
   </div>
 </div>
-
 </section>
