@@ -25,7 +25,9 @@
       rel="stylesheet"
     />
     <script type="module" crossorigin src="/stp-9267/index.js"></script>
-    <link rel="stylesheet" crossorigin href="/stp-9267/assets/styles-BxMLOx1W.css">
+    <link rel="modulepreload" crossorigin href="/stp-9267/assets/vendor-Ctd_unFI.js">
+    <link rel="stylesheet" crossorigin href="/stp-9267/assets/vendor-BUrcyj0q.css">
+    <link rel="stylesheet" crossorigin href="/stp-9267/assets/styles-CJa6H7xi.css">
   </head>
   <body>
     <header>
@@ -225,7 +227,41 @@
   </div>
 </section>
 
-      
+      <section id="reviews">
+  <div class="container">
+    <h2 class="reviews-title">Reviews</h2>
+    <h3 class="reviews-second-title">
+      What Our Players Are Saying About Lollipop World
+    </h3>
+
+    <!-- Мобильная версия -->
+    <ul id="reviews-mobile" class="reviews-list" data-type="mobile"></ul>
+    <button class="load-more-btn" id="loadMoreBtn" data-action="load-more">
+      <svg class="load-more-svg" width="20" height="20">
+        <use href="/stp-9267/assets/sprite-BUyDil7t.svg#icon-weui_arrow-outlined"></use>
+      </svg>
+      Load more
+    </button>
+
+    <!-- Десктопная версия: Swiper -->
+    <div class="reviews-wrapper-swiper">
+      <div class="swiper-container" id="swiper-wrapper-container">
+        <ul class="swiper-wrapper reviews-list" id="swiper-wrapper"></ul>
+      </div>
+      <button class="reviews-btn-prev" type="button" id="swiper-prev">
+        <svg class="reviews-btn-svg" width="47" height="47">
+          <use href="/stp-9267/assets/sprite-BUyDil7t.svg#icon-arrow-left"></use>
+        </svg>
+      </button>
+      <button class="reviews-btn-next" type="button" id="swiper-next">
+        <svg class="reviews-btn-svg" width="47" height="47">
+          <use href="/stp-9267/assets/sprite-BUyDil7t.svg#icon-arrow-write"></use>
+        </svg>
+      </button>
+    </div>
+  </div>
+</section>
+
       <section id="visual">
   <div class="container">
     <h2 class="visual-title">Visuals & Animation</h2>
