@@ -21,7 +21,7 @@
   font-family: 'Inter', sans-serif;
   border-radius: 4px;
   padding: 20px 40px;
-  width: 272px;
+  width: 270px;
   height: 48px;
   background: #f9f9f9;
   display: flex;
@@ -86,6 +86,7 @@
     min-width: 256px;
     min-height: 68px;
     font-size: 24px;
+    margin-bottom: 0;
   }
   .hero-google-link:hover {
     border: 2px solid #4b0082;
