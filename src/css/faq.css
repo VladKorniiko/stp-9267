@@ -15,8 +15,7 @@
   padding-left: 10px;
   margin-bottom: 8px;
 }
-.faq-answer {
-}
+
 .faq-question::before {
   content: '•';
   position: absolute;

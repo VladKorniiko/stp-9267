@@ -23,8 +23,7 @@
   }
   .about-img-wrapper {
     display: flex;
-    justify-content: center;
-    gap: 180px;
+    gap: 200px;
   }
   .about-list-item {
     margin-bottom: 40px;

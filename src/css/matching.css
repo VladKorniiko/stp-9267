@@ -3,25 +3,9 @@
   margin-bottom: 24px;
 }
 
-
-.matching-logo {
-  margin-bottom: 24px;
-  max-width: 100%;
-  height: auto;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-
+.matching-logo,
 .matching-text {
-  font-family: var(--font-family);
-  font-weight: 400;
-  font-size: 16px;
-}
-
-.btn-gl-play {
-  margin-top: 24px;
+  margin-bottom: 24px;
 }
 
 .matching-btn {
@@ -38,8 +22,6 @@
   gap: 12px;
   width: 270px;
   height: 48px;
-  margin-top: 24px;
-  margin-bottom: 32px;
 }
 .btn-icon {
   width: 24px;
@@ -63,25 +45,19 @@
   .matching-wrapper {
     display: flex;
     justify-content: center;
-    transform: translateX(70px);
   }
   .matching-second-title {
     display: block;
   }
   .matching-logo {
-    width: 283px;
-    height: auto;
     margin-bottom: 0;
-    margin-right: 180px;
+    margin-right: 173px;
     flex-shrink: 0;
-    margin-left: auto;
   }
   .matching-text {
-    font-size: 24px;
     margin-top: 22px;
     margin-bottom: 22px;
     width: 390px;
-    text-align: left;
   }
 
   .matching-btn {
