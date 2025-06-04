@@ -7,12 +7,6 @@ document.addEventListener('DOMContentLoaded', () => {
     slidesPerView: 1.6,
     spaceBetween: 32,
     grabCursor: true,
-    mousewheel: {
-      forceToAxis: true,
-      sensitivity: 1,
-      releaseOnEdges: false,
-      eventsTarget: 'container',
-    },
     breakpoints: {
       1200: {
         slidesPerView: 3.3,
